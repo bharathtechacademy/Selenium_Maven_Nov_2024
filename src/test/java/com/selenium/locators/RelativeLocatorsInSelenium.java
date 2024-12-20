@@ -3,24 +3,24 @@ package com.selenium.locators;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.locators.RelativeLocator;
 
-public class AdvancedCssSelectorLocators {
-
-	//Syntax 1: tagName#id
-	//Syntax 2: tagName.className
-	//Syntax 3: tagName[attribute='attributeValue']
+public class RelativeLocatorsInSelenium {
 	
-	//Syntax 4: advanced css with relationships ==> 
-	
-	
-	//parent's parent: ul[class='leftmenu']
-	//parent : li
-	//target : a[href='services.htm']
-	
-	//ul[class='leftmenu'] > li > a[href='services.htm']
+	/**
+	 * 
+	 * Syntax : RealativeLocator.with(targetElementLocator).DIRECTION(referenceElementLocator);
+	 * 
+	 * above
+	 * below
+	 * toLeftOf
+	 * toRightOf
+	 * near
+	 * 
+	 */
 
 	public static void main(String[] args) {
-	
+		
 //		1. Launch the Browser window (Browser = Chrome) 
 		WebDriver driver = new ChromeDriver();
 		
@@ -33,9 +33,8 @@ public class AdvancedCssSelectorLocators {
 //		4. Enter URL and Launch the Application (https://parabank.parasoft.com/parabank/index.htm)   
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 		
-//		Locate the WebElement Services Link using 'cssSelector' locator Syntax 4
-		driver.findElement(By.cssSelector("ul[class='leftmenu'] > li:nth-child(3) > a[href='services.htm']"));
-
+//		Locate the WebElement services using 'RelativeLocators' 
+		driver.findElement(RelativeLocator.with(By.linkText("Services")).above(By.xpath("//a[text()='Products']")));
 	}
 
 }
