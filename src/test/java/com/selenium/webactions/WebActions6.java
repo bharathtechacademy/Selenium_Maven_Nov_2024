@@ -1,12 +1,16 @@
 package com.selenium.webactions;
 
+import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.logging.Logger;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -56,6 +60,7 @@ public class WebActions6 {
 //      6. Verify application logo
 		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		explicitWait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//img[@class='logo']"), 0));
+		WebElement logo = driver.findElement(By.xpath("//img[@class='logo']"));
 		logger.pass("INFO: Logo displayed successfully");	
 		
 //      7. Verify application caption (Experience the difference)
@@ -64,7 +69,7 @@ public class WebActions6 {
 		String actualCaption = caption.getText();
 		Assert.assertEquals(actualCaption, expectedCaption);
 		logger.pass("INFO: Caption displayed successfully");	
-//		logger.addScreenCaptureFromPath("");
+		logger.addScreenCaptureFromPath(takeElementScreenshot("Logo", logo));
 		
 		extent.flush();
 		
@@ -95,7 +100,7 @@ public class WebActions6 {
 //      10. Verify error message is coming
 		explicitWait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath("//p[@class='error']"), 0));
 		logger.fail("Login Failed");
-//		logger.addScreenCaptureFromPath("");
+		logger.addScreenCaptureFromPath(takeWindowScreenshot("Login Error", driver));
 		
 		extent.flush();
 		
@@ -168,6 +173,21 @@ public class WebActions6 {
 	
 	public static By dbaMode(String value) {
 		return By.xpath("//input[@value='"+value+"']");
+	}
+	
+	
+	public static String takeWindowScreenshot(String screenshotName, WebDriver driver) throws IOException {
+		String filePath = System.getProperty("user.dir")+"\\Screenshots\\"+screenshotName+".png";
+		File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screenshotFile, new File(filePath));
+		return filePath;
+	}
+	
+	public static String takeElementScreenshot(String screenshotName, WebElement element) throws IOException {
+		String filePath = System.getProperty("user.dir")+"\\Screenshots\\"+screenshotName+".png";
+		File screenshotFile = element.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(screenshotFile, new File(filePath));
+		return filePath;
 	}
 
 }
