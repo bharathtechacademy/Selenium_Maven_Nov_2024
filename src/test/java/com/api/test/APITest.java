@@ -1,7 +1,13 @@
 package com.api.test;
 
+import java.io.IOException;
+
+import org.apache.jmeter.report.config.ConfigurationException;
+import org.apache.jmeter.report.dashboard.GenerationException;
+
 import com.api.commons.ApiCommons;
 import com.api.commons.ApiPage;
+import com.api.commons.JmeterCommons;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -17,7 +23,7 @@ public class APITest extends ApiCommons {
 	public static ExtentReports extent = new ExtentReports(); //printer
 	public static ExtentTest logger = null;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException, ConfigurationException, GenerationException {
 		
 		extent.attachReporter(html);
 		
@@ -68,7 +74,6 @@ public class APITest extends ApiCommons {
 		logger.info(response.getBody().asPrettyString());
 		logger.pass("Delete a repository for the valid user Request is Successful");
 		extent.flush();
-
 	}
 
 }

@@ -1,0 +1,4201 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1736476816249,283,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,3,3,https://api.github.com/user/repos,278,0,239
+1736476816188,345,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,3,3,https://api.github.com/user/repos,340,0,301
+1736476816448,84,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,3,3,https://api.github.com/user/repos,79,0,45
+1736476816648,67,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,4,4,https://api.github.com/user/repos,67,0,45
+1736476816535,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476816535,274,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,274,0,0
+1736476816535,338,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,338,0,0
+1736476816849,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,65,0,45
+1736476816715,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476816785,257,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476816810,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476817043,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476817056,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,23,0,0
+1736476817045,68,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,68,0,46
+1736476816874,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476817115,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476816914,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476816963,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476817209,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476817064,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476817245,68,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,7,7,https://api.github.com/user/repos,68,0,45
+1736476817079,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476817114,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476817137,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476817168,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476817231,337,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,8,8,https://api.github.com/repos/bharathtechacademy3/SampleRepo,337,0,0
+1736476817307,261,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,8,8,https://api.github.com/repos/bharathtechacademy3/SampleRepo,261,0,0
+1736476817313,255,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,8,8,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476817329,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476817360,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476817444,172,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,172,0,150
+1736476817381,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476817604,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476817413,248,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,248,0,0
+1736476817643,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476817569,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476817569,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476817816,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476817628,240,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476817616,275,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,275,0,0
+1736476817661,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476817843,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476817707,275,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,275,0,0
+1736476817839,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476817868,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476818044,67,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,67,0,44
+1736476817891,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476817907,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476818133,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476817908,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476817982,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476818225,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476818242,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,44
+1736476818154,315,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,315,0,0
+1736476818153,316,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,316,0,0
+1736476818111,358,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,358,0,0
+1736476818470,26,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,7,7,https://api.github.com/user/repos,26,0,0
+1736476818246,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476818442,75,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,7,7,https://api.github.com/user/repos,75,0,52
+1736476818308,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476818089,490,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,490,0,0
+1736476818470,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476818470,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476818642,77,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,77,0,53
+1736476818717,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476818496,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476818497,250,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476818518,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476818555,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476818801,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476818842,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,65,0,44
+1736476818720,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476818738,239,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476818742,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476818763,252,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476819015,38,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,38,0,0
+1736476818822,256,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,256,0,0
+1736476819046,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476818907,277,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,277,0,0
+1736476818978,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476818968,255,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476819224,23,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,23,0,0
+1736476819053,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476819243,71,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,71,0,50
+1736476819078,238,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476819111,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476819185,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476819426,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476819442,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,66,0,46
+1736476819248,291,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,290,0,0
+1736476819297,251,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476819314,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476819448,327,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,327,0,0
+1736476819509,266,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,266,0,0
+1736476819539,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476819643,177,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,177,0,156
+1736476819564,265,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,265,0,0
+1736476819362,469,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,469,0,0
+1736476819829,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476819832,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476819844,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476819776,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476820019,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476819776,270,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,270,0,0
+1736476819820,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476819850,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476819853,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476820044,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,66,0,46
+1736476819909,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476820040,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476820244,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,7,7,https://api.github.com/user/repos,67,0,45
+1736476820067,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476820314,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,7,7,https://api.github.com/user/repos,21,0,0
+1736476820098,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476820099,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476820111,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476820157,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476820312,257,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476820293,276,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,276,0,0
+1736476820335,239,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476820352,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476820443,172,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,172,0,150
+1736476820598,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476820404,244,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,244,0,0
+1736476820642,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476820569,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476820575,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476820815,25,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,25,0,0
+1736476820615,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476820619,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476820649,237,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476820842,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476820707,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476820840,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476820861,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476821042,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476820860,252,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476820887,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476821112,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476820906,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476820949,249,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476821198,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476821240,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,67,0,45
+1736476821083,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476821107,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476821134,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476821158,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476821399,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476821220,239,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476821441,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476821307,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476821352,255,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476821607,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,22,0,0
+1736476821383,254,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476821421,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476821642,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,6,6,https://api.github.com/user/repos,65,0,42
+1736476821460,254,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476821506,237,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476821553,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476821795,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476821629,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476821842,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,67,0,46
+1736476821664,250,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476821707,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476821744,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476821985,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476821817,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476822041,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,66,0,46
+1736476821880,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476821909,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476821951,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476822198,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476822006,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476822242,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,66,0,43
+1736476822064,270,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,270,0,0
+1736476822107,259,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,259,0,0
+1736476822151,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476822392,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476822220,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476822251,237,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476822440,68,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,68,0,44
+1736476822366,329,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,329,0,0
+1736476822309,386,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,386,0,0
+1736476822465,238,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476822695,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476822414,307,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,307,0,0
+1736476822641,98,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,98,0,77
+1736476822509,256,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,256,0,0
+1736476822842,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,66,0,45
+1736476822695,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476822938,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476822716,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476822721,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476822739,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476822765,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476823005,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476823041,63,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,63,0,43
+1736476822908,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476822960,238,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476822966,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476822983,250,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476823233,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476823028,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476823241,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,67,0,45
+1736476823105,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476823157,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476823401,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476823199,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476823254,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476823443,68,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,6,6,https://api.github.com/user/repos,67,0,45
+1736476823277,251,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476823308,254,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476823347,258,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,258,0,0
+1736476823605,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476823423,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476823640,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,44
+1736476823498,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476823511,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476823563,344,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,344,0,0
+1736476823626,281,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,281,0,0
+1736476823665,254,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476823908,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476823705,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476823842,110,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,110,0,89
+1736476823764,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476824008,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476824043,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476823908,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476823930,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476823953,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476823952,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476824200,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476824031,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476824243,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,67,0,45
+1736476824107,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476824174,252,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476824197,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476824445,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476824221,273,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,273,0,0
+1736476824443,63,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,63,0,42
+1736476824282,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476824310,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476824360,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476824600,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476824642,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476824466,254,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476824494,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476824506,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476824561,260,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,260,0,0
+1736476824822,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,22,0,0
+1736476824620,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476824842,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476824707,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476824721,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476824753,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476825000,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476824844,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476824867,238,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476825041,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,65,0,44
+1736476824907,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476824958,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476825201,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476825021,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476825241,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476825093,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476825106,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476825149,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476825395,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476825222,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476825264,237,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476825441,74,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,74,0,53
+1736476825305,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476825350,248,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476825598,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476825417,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476825473,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476825642,77,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,77,0,44
+1736476825515,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476825548,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476825790,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476825620,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476825660,251,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476825842,70,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,70,0,47
+1736476825720,261,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,261,0,0
+1736476825765,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476826008,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476825813,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476826041,67,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,67,0,46
+1736476825868,248,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476825912,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476825981,251,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476826233,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476826030,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476826055,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476826242,66,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,66,0,42
+1736476826108,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476826158,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476826404,23,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476826254,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476826441,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476826274,259,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,259,0,0
+1736476826308,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1148,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476826353,269,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,269,0,0
+1736476826622,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476826427,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476826641,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,42
+1736476826504,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476826505,252,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476826550,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476826794,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1292,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476826643,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476826842,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476826672,270,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,270,0,0
+1736476826706,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476826758,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476827006,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476826815,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476827041,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476826897,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476826907,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476826953,248,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476827202,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476827027,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476827241,63,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,63,0,41
+1736476827061,255,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476827106,255,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476827154,251,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476827405,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476827223,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476827444,63,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,63,0,41
+1736476827273,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476827427,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476827361,317,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,317,0,0
+1736476827679,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,21,0,0
+1736476827467,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476827643,78,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,78,0,58
+1736476827507,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476827304,471,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,471,0,0
+1736476827842,62,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,62,0,42
+1736476827678,254,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,254,0,0
+1736476827700,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476827721,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476827748,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476827776,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476827996,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476828016,23,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476828041,68,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,68,0,46
+1736476827905,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476827945,266,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,266,0,0
+1736476827969,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476828211,21,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476828018,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476828039,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476828243,68,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,68,0,44
+1736476828109,257,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476828148,257,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476828406,20,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,20,0,0
+1736476828232,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476828444,65,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,7,7,https://api.github.com/user/repos,65,0,42
+1736476828263,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476828280,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476828311,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476828367,237,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476828605,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476828426,255,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476828642,64,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476828477,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476828509,256,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,256,0,0
+1736476828556,353,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,353,0,0
+1736476828628,281,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,281,0,0
+1736476828681,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476828910,22,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476828841,112,Request to create a repository for the invalid user,403,rate limit exceeded,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : 40[[[3]]]
+
+****** comparison: 40[[[1]]]
+
+/",1293,276,5,5,https://api.github.com/user/repos,112,0,91
+1736476828706,256,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,256,0,0
+1736476828765,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476829009,24,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,24,0,0
+1736476829042,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476828910,253,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476828954,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476828962,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476829205,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476829033,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476828932,362,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,362,0,0
+1736476829242,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,44
+1736476829106,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476829199,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476829441,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,7,7,https://api.github.com/user/repos,23,0,0
+1736476829226,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476829442,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,7,7,https://api.github.com/user/repos,63,0,42
+1736476829281,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,7,7,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476829308,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476829295,257,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476829357,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476829603,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476829642,68,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,68,0,45
+1736476829469,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476829505,257,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,257,0,0
+1736476829464,302,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,302,0,0
+1736476829553,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476829798,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476829625,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476829842,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,44
+1736476829710,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476829763,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476829766,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476830004,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476829818,255,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476830042,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476829868,249,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476829908,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476829951,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476830192,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476830025,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476830242,67,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,67,0,44
+1736476830073,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476830106,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476830161,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476830404,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476830442,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,63,0,43
+1736476830268,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476830215,310,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,310,0,0
+1736476830309,255,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476830350,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476830590,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476830426,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476830641,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476830506,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476830525,238,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476830564,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476830809,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476830611,262,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,262,0,0
+1736476830841,62,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,62,0,42
+1736476830670,252,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476830706,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476830756,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476830996,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476830832,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476831042,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,64,0,41
+1736476830873,264,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,264,0,0
+1736476830903,270,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,270,0,0
+1736476830954,290,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,290,0,0
+1736476831017,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476831245,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,22,0,0
+1736476831242,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,65,0,42
+1736476831073,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476831106,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476831174,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476831417,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476831442,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,42
+1736476831267,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476831267,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476831307,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476831358,261,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,261,0,0
+1736476831619,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476831438,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476831643,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476831508,252,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476831514,269,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,269,0,0
+1736476831553,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476831798,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476831640,258,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,258,0,0
+1736476831843,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,63,0,42
+1736476831687,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476831707,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476831761,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476832003,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476831819,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476832042,62,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,62,0,42
+1736476831898,236,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,236,0,0
+1736476831906,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476831949,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832194,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476832025,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476832244,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476832071,248,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476832104,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476832154,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832399,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476832216,252,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476832444,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,63,0,41
+1736476832266,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832308,273,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,273,0,0
+1736476832349,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832594,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476832419,241,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476832468,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476832651,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,63,0,42
+1736476832507,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476832581,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832825,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476832614,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476832660,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476832851,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,64,0,43
+1736476832714,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476832752,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476832993,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476832848,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476832856,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476833044,63,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,63,0,42
+1736476832915,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476832963,238,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,238,0,0
+1736476833201,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476833014,253,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476833242,69,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,69,0,42
+1736476833092,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476833107,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476833158,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476833403,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476833222,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476833442,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,45
+1736476833267,241,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,241,0,0
+1736476833312,249,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476833356,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476833599,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476833425,250,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476833643,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,65,0,42
+1736476833466,259,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,259,0,0
+1736476833508,240,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476833561,253,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,253,0,0
+1736476833814,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476833622,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476833843,61,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,61,0,41
+1736476833675,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476833708,258,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,258,0,0
+1736476833748,266,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,266,0,0
+1736476834015,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476833835,251,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,251,0,0
+1736476834042,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,65,0,43
+1736476833869,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476833905,237,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476833966,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476834210,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476834035,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476834243,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,42
+1736476834086,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476834107,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476834143,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476834382,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476834232,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476834443,72,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,72,0,45
+1736476834282,237,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476834308,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476834351,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476834596,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476834403,242,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476834642,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,6,6,https://api.github.com/user/repos,66,0,42
+1736476834476,237,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,237,0,0
+1736476834515,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476834555,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476834801,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476834618,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476834645,246,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476834843,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,65,0,44
+1736476834709,239,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476834761,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476835002,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476834822,248,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,248,0,0
+1736476834865,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476835042,65,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,65,0,43
+1736476834909,239,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476834948,252,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,252,0,0
+1736476835200,23,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1089,276,5,5,https://api.github.com/user/repos,23,0,0
+1736476835022,270,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,270,0,0
+1736476835243,66,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,66,0,43
+1736476835071,265,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,265,0,0
+1736476835107,256,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,256,0,0
+1736476835148,255,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,255,0,0
+1736476835403,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476835223,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476835444,62,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,62,0,42
+1736476835293,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476835309,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476835363,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476835605,20,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,20,0,0
+1736476835426,244,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476835643,67,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,67,0,45
+1736476835467,247,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1149,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476835506,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476835554,244,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,244,0,0
+1736476835799,22,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,22,0,0
+1736476835626,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476835843,64,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,6,6,https://api.github.com/user/repos,64,0,43
+1736476835670,249,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,6,6,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
+1736476835711,247,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,247,0,0
+1736476835753,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476835995,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,5,5,https://api.github.com/user/repos,21,0,0
+1736476835821,246,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,246,0,0
+1736476835869,245,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,5,5,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476835908,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476835959,240,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,240,0,0
+1736476836198,24,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,4,4,https://api.github.com/user/repos,24,0,0
+1736476836016,245,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,245,0,0
+1736476836068,239,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,4,4,https://api.github.com/repos/bharathtechacademy3/SampleRepo,239,0,0
+1736476836151,242,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,3,3,https://api.github.com/repos/bharathtechacademy3/SampleRepo,242,0,0
+1736476836394,21,Request to create a repository for the invalid user,429,too many requests,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : 4[[[29]]]
+
+****** comparison: 4[[[01]]]
+
+/",1090,276,3,3,https://api.github.com/user/repos,21,0,0
+1736476836223,243,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,3,3,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476836260,243,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,3,3,https://api.github.com/repos/bharathtechacademy3/SampleRepo,243,0,0
+1736476836416,264,Request to update a repository for the valid user,401,Unauthorized,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,324,2,2,https://api.github.com/repos/bharathtechacademy3/SampleRepo,264,0,0
+1736476836467,250,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,2,2,https://api.github.com/repos/bharathtechacademy3/SampleRepo,250,0,0
+1736476836680,249,Request to get a repository for the valid user,401,Unauthorized,Github Api Collection 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",1150,252,1,1,https://api.github.com/repos/bharathtechacademy3/SampleRepo,249,0,0
