@@ -9,17 +9,17 @@ import org.testng.annotations.Parameters;
 
 public class TestNGCommons {
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun=true)
 	public void startReporting() {
 		System.out.println("Reporting process started.....");
 	}
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun=true)
 	public void stopReporting() {
 		System.out.println("Reporting process stopped and Report generated.....");
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	@Parameters({"Browser","URL"})
 	public void launchBrowserAndApplication(String browser, String url) {
 		System.out.println("*****************************");
@@ -27,7 +27,7 @@ public class TestNGCommons {
 		System.out.println(url+" is launched...");
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser() {
 		System.out.println("Browser is closed....");
 		System.out.println("*****************************");

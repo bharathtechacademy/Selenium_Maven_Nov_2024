@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 13 09:17:10 IST 2025</td>
+<td>Started on:</td><td>Wed Jan 15 09:04:46 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (64 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (72 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,12 +78,121 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.framework.testngConcepts.TestNGTests.TestCase1()'><b>TestCase1</b><br>Test class: com.framework.testngConcepts.TestNGTests</td>
 <td><div><pre>java.lang.AssertionError: Test Case 1 Failed
-	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:10)
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace295640874", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace295640874'><pre>java.lang.AssertionError: Test Case 1 Failed
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1627010197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1627010197'><pre>java.lang.AssertionError: Test Case 1 Failed
 	at org.testng.Assert.fail(Assert.java:111)
-	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:10)
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.testngConcepts.TestNGTests.TestCase3()'><b>TestCase3</b><br>Test class: com.framework.testngConcepts.TestNGTests<br>Parameters: Invalid, Invalid123</td>
+<td></td>
+<td>0</td>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
+<tr>
+<td title='com.framework.testngConcepts.TestNGTests.TestCase3()'><b>TestCase3</b><br>Test class: com.framework.testngConcepts.TestNGTests<br>Parameters: Bharath, Bharath123</td>
+<td></td>
+<td>0</td>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
+<tr>
+<td title='com.framework.testngConcepts.TestNGTests.TestCase4()'><b>TestCase4</b><br>Test class: com.framework.testngConcepts.TestNGTests</td>
+<td></td>
+<td>0</td>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.testngConcepts.TestNGTests.TestCase1()'><b>TestCase1</b><br>Test class: com.framework.testngConcepts.TestNGTests</td>
+<td><div><pre>java.lang.AssertionError: Test Case 1 Failed
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1624817884", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1624817884'><pre>java.lang.AssertionError: Test Case 1 Failed
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
+<tr>
+<td title='com.framework.testngConcepts.TestNGTests.TestCase1()'><b>TestCase1</b><br>Test class: com.framework.testngConcepts.TestNGTests</td>
+<td><div><pre>java.lang.AssertionError: Test Case 1 Failed
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1910896157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1910896157'><pre>java.lang.AssertionError: Test Case 1 Failed
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.framework.testngConcepts.TestNGTests.TestCase1(TestNGTests.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -112,31 +221,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>com.framework.testngConcepts.TestNGTests@192d74fb</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.framework.testngConcepts.TestNGTests.TestCase3()'><b>TestCase3</b><br>Test class: com.framework.testngConcepts.TestNGTests<br>Parameters: Invalid, Invalid123</td>
-<td></td>
-<td>0</td>
-<td>com.framework.testngConcepts.TestNGTests@192d74fb</td></tr>
-<tr>
-<td title='com.framework.testngConcepts.TestNGTests.TestCase3()'><b>TestCase3</b><br>Test class: com.framework.testngConcepts.TestNGTests<br>Parameters: Bharath, Bharath123</td>
-<td></td>
-<td>0</td>
-<td>com.framework.testngConcepts.TestNGTests@192d74fb</td></tr>
-<tr>
-<td title='com.framework.testngConcepts.TestNGTests.TestCase2()'><b>TestCase2</b><br>Test class: com.framework.testngConcepts.TestNGTests</td>
-<td></td>
-<td>0</td>
-<td>com.framework.testngConcepts.TestNGTests@192d74fb</td></tr>
+<td>com.framework.testngConcepts.TestNGTests@51cd7ffc</td></tr>
 </table><p>
 </body>
 </html>
